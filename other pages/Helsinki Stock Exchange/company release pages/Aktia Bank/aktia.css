@@ -1,0 +1,144 @@
+* {
+    font-family: Nunito;
+}
+:root {
+    --primary-text-color: #747e88;
+    --button-colors: #2e54fa;
+    --box-backgroud-color: whitesmoke;
+    --primary-text-hover-color: #5472fb;
+    --dark-button-color: #22438C;
+
+}
+/* Navigation Bar */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 0px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px ;
+    margin-top: 0;
+    z-index: 1030;
+    padding-bottom: 10px;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 40px;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+.main-nav a {
+    color: #747e88;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-nav h1 {
+    padding-left: 20px;
+    font-size: 45px;
+    padding-top: 10px;
+    margin: 0;
+    color: #38424d;
+}
+.nav-sign-in-button {
+    background-color: #2e54fa;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+.nav-sign-in-button:hover {
+    background-color: #5472fb;
+}
+.nav-sign-in a {
+    color: white;
+}
+.nav-hover:hover {
+    color: #2e54fa;
+}
+.nav-content .nav-hover-news {
+    color: #2e54fa;
+}
+
+
+
+
+
+
+/* Press Releases */
+.press-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.release-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--dark-button-color);
+    margin-top: 10px;
+    padding: 0px 40px;
+    border-radius: 20px;
+}
+.release-box p {
+    color: white;
+    font-size: 20px;
+}
+.release-box a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.press-headline {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.press-headline h1 {
+    font-size: 35px;
+}
+.release-box a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Market Search Bar */
+.search-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .input-text {
+     width: 300px;
+     border-radius: 10px;
+     outline: none;
+     padding: 5px 100px 5px 5px;
+     font-size: 15px;
+ }
+ .search-bar-box {
+     margin-top: 130px;
+     background-color: var(--button-colors);
+     width: 100%;
+     display: flex;
+     padding: 0px;
+     border-radius: 20px;
+     height: 50px;
+     justify-content: center;
+ }
+ .search-box a {
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+ }
+ .search-box a:hover {
+     text-decoration: underline;
+ }
+

@@ -1,0 +1,151 @@
+* {
+    font-family: Nunito;
+}
+:root {
+    --primary-text-color: #747e88;
+    --button-colors: #2e54fa;
+    --box-backgroud-color: whitesmoke;
+    --primary-text-hover-color: #5472fb;
+
+}
+/* Navigation Bar */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-top: 0px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px ;
+    margin-top: 0;
+    z-index: 1030;
+    padding-bottom: 10px;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 40px;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+.main-nav a {
+    color: #747e88;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-nav h1 {
+    padding-left: 20px;
+    font-size: 45px;
+    padding-top: 10px;
+    margin: 0;
+    color: #38424d;
+}
+.nav-sign-in-button {
+    background-color: #2e54fa;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 15px;
+}
+.nav-sign-in-button:hover {
+    background-color: #5472fb;
+}
+.nav-sign-in a {
+    color: white;
+}
+.nav-hover:hover {
+    color: #2e54fa;
+}
+.nav-content .nav-hover-news {
+    color: #2e54fa;
+}
+
+
+
+
+/* Market Search Bar */
+.search-box {
+   display: flex;
+   gap: 50px;
+   align-items: center;
+}
+.search-bar-box {
+    margin-top: 130px;
+    background-color: var(--button-colors);
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    border-radius: 20px;
+    height: 50px;
+    justify-content: center;
+}
+.search-box a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.search-box a:hover {
+    text-decoration: underline;
+}
+.search-bar-headline h1 {
+    color: white;
+    font-size: 35px;
+}
+
+
+
+
+
+/* List of Markets */
+.market-list-content {
+    display: grid;
+    grid-template-columns: repeat(4, 380px);
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.stock-exchange-box {
+    width: 380px;
+    height: 200px;
+    border: 3px solid black;
+    background-color: #22438C;
+}
+img {
+    width: 380px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.stock-exchange-box {
+    border: none;
+    border-radius: 20px;
+    width: 380px;
+    height: 200px;
+    position: relative;
+    opacity: 0.85;
+}
+.stock-exchange-box h1 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+    width: fit-content;
+    background-color: black;
+    padding: 3px 15px;
+    border-radius: 15px;
+    width: 350px ;
+}
+.stock-exchange-box h1:hover {
+    text-decoration: underline;
+}
+
+
+
